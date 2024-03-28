@@ -1,43 +1,59 @@
-"use client"
+"use client";
 import React from "react";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Dashboard } from "@/svgs/svg";
-
+import { useLogisticContext } from "@/contexts/LogisticProvider";
+import { Chevronright, Widget, SmallCircle } from "@/svgs/svg";
 
 const Sidebar = () => {
-    const pathname = usePathname()
-    const [isVisible, setIsVisible] = useState(false)
-    const toggle=()=>setIsVisible((prev)=>!prev)
+  const { sideBarVisible, setSideBarVisible } = useLogisticContext();
+  const pathname = usePathname();
+  const [isVisible, setIsVisible] = useState(false);
+  const toggle = () => setIsVisible((prev) => !prev);
   return (
-    <aside className="app-sidebar toggle-sidebar ps ps--active-y hidden sm:block">
+    <aside
+      className={`app-sidebar toggle-sidebar ps ps--active-y ${
+        sideBarVisible ? "" : "hidden"
+      } sm:block`}
+    >
       <ul className="side-menu toggle-menu">
         <li>
           <h3>Main</h3>
         </li>
         <li className="slide is-expanded">
-          <a
-            className="side-menu__item active cursor-pointer"
-            onClick={() => toggle()}
-          >
-            <Dashboard/>
-            <span className="side-menu__label">Dashboard</span>
-            <i className="angle fa fa-angle-right" />
+          <a className="side-menu__item" onClick={() => toggle()}>
+            <Dashboard />
+
+            <span
+              className={`side-menu__label ml-2 ${
+                pathname == "/eccomerce" ||
+                pathname === "/sales" ||
+                pathname === "/logistics"
+                  ? "text-[#868eff]"
+                  : ""
+              }`}
+            >
+              Dashboard
+            </span>
+            <Chevronright />
+            {/* <i className="angle fa fa-angle-right" /> */}
           </a>
           {isVisible && (
             <ul className="slide-menu">
               <li className={`${pathname == "/eccomerce" && "text-[#868eff]"}`}>
-                <a
-                  className="slide-item active"
-                  href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/index"
-                >
+                <a className="slide-item " href="">
                   <span>Analytics Dashboard</span>
                 </a>
               </li>
               <li>
                 <a className="slide-item" href="/eccomerce">
+                  <div className="mr-2">
+                    <SmallCircle />
+                  </div>
+
                   <span
-                    className={`${
+                    className={` ${
                       pathname == "/eccomerce" && "text-[#868eff]"
                     }`}
                   >
@@ -47,6 +63,9 @@ const Sidebar = () => {
               </li>
               <li>
                 <a className="slide-item" href="/sales">
+                  <div className="mr-2">
+                    <SmallCircle />
+                  </div>
                   <span
                     className={`${pathname == "/sales" && "text-[#868eff]"}`}
                   >
@@ -56,12 +75,10 @@ const Sidebar = () => {
                 </a>
               </li>
               <li>
-                <a className="slide-item" href="">
-                  <span>IT Dashboard</span>
-                </a>
-              </li>
-              <li>
                 <a className="slide-item" href="/logistics">
+                  <div className="mr-2">
+                    <SmallCircle />
+                  </div>
                   <span
                     className={`${
                       pathname == "/logistics" && "text-[#868eff]"
@@ -75,15 +92,24 @@ const Sidebar = () => {
           )}
         </li>
         <li>
-          <a
-            className="side-menu__item"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/widgets"
-          >
-            <i className="side-menu__icon fe fe-codepen" />
-            <span className="side-menu__label">Widgets</span>
+          <a className="side-menu__item" href="">
+            <Widget />
+            <span className="side-menu__label ml-2">Widgets</span>
           </a>
         </li>
-        <li className="slide">
+        <li>
+          <a className="side-menu__item" href="/quotations">
+            <i className="side-menu__icon fe fe-codepen" />
+            <span
+              className={`side-menu__label ${
+                pathname == "/quotations" && "text-[#868eff]"
+              }`}
+            >
+              Quotations
+            </span>
+          </a>
+        </li>
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
@@ -122,8 +148,8 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
-        <li className="slide">
+        </li> */}
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
@@ -205,8 +231,8 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
-        <li className="slide">
+        </li> */}
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
@@ -229,15 +255,15 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li>
           <h3>Components</h3>
         </li>
-        <li className="slide">
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/#"
+            href=""
           >
             <i className="side-menu__icon fe fe-box" />
             <span className="side-menu__label">Elements</span>
@@ -246,7 +272,7 @@ const Sidebar = () => {
           <ul className="slide-menu">
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/alerts"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -442,8 +468,8 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
-        <li className="slide">
+        </li> */}
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
@@ -471,8 +497,8 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
-        <li className="slide">
+        </li> */}
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
@@ -617,17 +643,14 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li>
-          <a
-            className="side-menu__item"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/maps"
-          >
+          <a className="side-menu__item" href="">
             <i className="side-menu__icon fe fe-map-pin" />
             <span className="side-menu__label">Maps</span>
           </a>
         </li>
-        <li className="slide">
+        {/* <li className="slide">
           <a
             className="side-menu__item"
             data-toggle="slide"
@@ -727,7 +750,7 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-        </li>
+        </li> */}
 
         {/* pages */}
         <li className="slide is-expanded cursor-pointer">
@@ -737,12 +760,9 @@ const Sidebar = () => {
             <i className="angle fa fa-angle-right" />
           </a>
           {isVisible && (
-            <ul className="slide-menu hidden">
+            <ul className="slide-menu">
               <li className="active">
-                <a
-                  className="slide-item active"
-                  href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/index"
-                >
+                <a className="slide-item active" href="">
                   <span>Analytics Dashboard</span>
                 </a>
               </li>

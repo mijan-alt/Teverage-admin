@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const page = () => {
   return (
@@ -95,7 +95,7 @@ const page = () => {
                     <div className="">
                       <a href="#">
                         <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/2.jpg"
+                          src="/assets/images/users/female/2.jpg"
                           className="avatar-xxl rounded-circle"
                           alt="profile"
                         />
@@ -333,7 +333,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/2.jpg"
+                                          src="/assets/images/users/female/2.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -386,7 +386,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/4.jpg"
+                                          src="/assets/images/users/female/4.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -439,7 +439,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/2.jpg"
+                                          src="/assets/images/users/male/2.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle ">
@@ -492,7 +492,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/1.jpg"
+                                          src="/assets/images/users/female/1.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle ">
@@ -545,7 +545,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/3.jpg"
+                                          src="/assets/images/users/female/3.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle ">
@@ -600,7 +600,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/3.jpg"
+                                          src="/assets/images/users/male/3.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -655,7 +655,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/5.jpg"
+                                          src="/assets/images/users/female/5.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -710,7 +710,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/6.jpg"
+                                          src="/assets/images/users/female/6.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -765,7 +765,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/5.jpg"
+                                          src="/assets/images/users/male/5.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -820,7 +820,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/6.jpg"
+                                          src="/assets/images/users/male/6.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -875,7 +875,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/7.jpg"
+                                          src="/assets/images/users/female/7.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -930,7 +930,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/7.jpg"
+                                          src="/assets/images/users/male/7.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -985,7 +985,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/9.jpg"
+                                          src="/assets/images/users/female/9.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -1040,7 +1040,7 @@ const page = () => {
                                         <img
                                           alt=""
                                           className="avatar avatar-md brround"
-                                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/8.jpg"
+                                          src="/assets/images/users/female/8.jpg"
                                         />
                                       </a>
                                       <div className="media-body valign-middle">
@@ -1106,74 +1106,47 @@ const page = () => {
                   <div className="row">
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/14.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/14.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/19.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/19.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/20.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/20.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/4.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/4.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/5.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/5.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/6.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/6.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/10.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/10.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/8.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/8.jpg" alt="gallery" />
                       </div>
                     </div>
                     <div className="col-lg-4 profile-image">
                       <div className="card shadow">
-                        <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/photos/9.jpg"
-                          alt="gallery"
-                        />
+                        <img src="/assets/images/photos/9.jpg" alt="gallery" />
                       </div>
                     </div>
                   </div>
@@ -1227,7 +1200,7 @@ const page = () => {
                             <span className="thumb-sm  pull-left mr-sm">
                               <img
                                 className="avatar avatar-md brround"
-                                src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/8.jpg"
+                                src="/assets/images/users/female/8.jpg"
                                 alt="..."
                               />
                             </span>
@@ -1273,7 +1246,7 @@ const page = () => {
                             <span className="thumb-sm  pull-left mr-sm">
                               <img
                                 className="avatar avatar-md brround"
-                                src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/7.jpg"
+                                src="/assets/images/users/male/7.jpg"
                                 alt="..."
                               />
                             </span>
@@ -1319,7 +1292,7 @@ const page = () => {
                                 <span className="thumb-sm  float-left mr-sm">
                                   <img
                                     className="avatar avatar-md brround"
-                                    src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/5.jpg"
+                                    src="/assets/images/users/female/5.jpg"
                                     alt="..."
                                   />
                                 </span>
@@ -1336,7 +1309,7 @@ const page = () => {
                                 <span className="thumb-sm float-left mr-sm mr-4">
                                   <img
                                     className="avatar avatar-md brround"
-                                    src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/3.jpg"
+                                    src="/assets/images/users/male/3.jpg"
                                     alt="..."
                                   />
                                 </span>
@@ -1404,6 +1377,6 @@ const page = () => {
       {/* End Row */}
     </div>
   );
-}
+};
 
-export default page
+export default page;

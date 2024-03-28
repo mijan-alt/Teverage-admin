@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { Syne } from 'next/font/google'
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
+import { LogisticProvider } from '@/contexts/LogisticProvider';
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,14 +17,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="">
-        <Navbar />
-        <div className="app-sidebar__overlay" data-toggle="sidebar" />
-        <Sidebar />
-        <div className='app-content toggle-content'>
-          <div className="side-app">
-            {children}
+        <LogisticProvider>
+          <Navbar />
+          <div className="app-sidebar__overlay" data-toggle="sidebar" />
+          <Sidebar />
+          <div className="app-content toggle-content">
+            <div className="side-app">{children}</div>
           </div>
-        </div>
+        </LogisticProvider>
       </body>
     </html>
   );

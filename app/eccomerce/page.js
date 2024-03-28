@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const page = () => {
   return (
@@ -531,10 +531,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/5.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/5.png" alt="" />
                             <div className="memmbername">
                               Kids Wear
                               <p className="text-warning mb-0">
@@ -557,10 +554,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/4.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/4.png" alt="" />
                             <div className="memmbername">
                               Hand Bags
                               <p className="text-warning mb-0">
@@ -583,10 +577,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/1.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/1.png" alt="" />
                             <div className="memmbername">
                               Office Chair
                               <p className="text-warning mb-0">
@@ -609,10 +600,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/2.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/2.png" alt="" />
                             <div className="memmbername">
                               Mens Wear
                               <p className="text-warning mb-0">
@@ -635,10 +623,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/9.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/9.png" alt="" />
                             <div className="memmbername">
                               Electronics
                               <p className="text-warning mb-0">
@@ -661,10 +646,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/3.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/3.png" alt="" />
                             <div className="memmbername">
                               Accessories
                               <p className="text-warning mb-0">
@@ -687,10 +669,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/5.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/5.png" alt="" />
                             <div className="memmbername">
                               Kids Wear
                               <p className="text-warning mb-0">
@@ -713,10 +692,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/4.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/4.png" alt="" />
                             <div className="memmbername">
                               Hand Bags
                               <p className="text-warning mb-0">
@@ -739,10 +715,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/1.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/1.png" alt="" />
                             <div className="memmbername">
                               Office Chair
                               <p className="text-warning mb-0">
@@ -765,10 +738,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/2.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/2.png" alt="" />
                             <div className="memmbername">
                               Mens Wear
                               <p className="text-warning mb-0">
@@ -791,10 +761,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/9.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/9.png" alt="" />
                             <div className="memmbername">
                               Electronics
                               <p className="text-warning mb-0">
@@ -817,10 +784,7 @@ const page = () => {
                         <div className="memberblock mb-0">
                           <a href="" className="member">
                             {" "}
-                            <img
-                              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/products/3.png"
-                              alt=""
-                            />
+                            <img src="/assets/images/products/3.png" alt="" />
                             <div className="memmbername">
                               Accessories
                               <p className="text-warning mb-0">
@@ -1489,6 +1453,6 @@ const page = () => {
       {/* End Row */}
     </div>
   );
-}
+};
 
-export default page
+export default page;

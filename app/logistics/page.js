@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const page = () => {
   return (
@@ -892,7 +892,7 @@ const page = () => {
                     <tr>
                       <td>
                         <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/1.jpg"
+                          src="/assets/images/users/female/1.jpg"
                           className="avatar brround"
                           alt=""
                         />
@@ -907,7 +907,7 @@ const page = () => {
                     <tr>
                       <td>
                         <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/3.jpg"
+                          src="/assets/images/users/female/3.jpg"
                           className="avatar brround"
                           alt=""
                         />
@@ -924,7 +924,7 @@ const page = () => {
                     <tr>
                       <td>
                         <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/4.jpg"
+                          src="/assets/images/users/male/4.jpg"
                           className="avatar brround"
                           alt=""
                         />
@@ -939,7 +939,7 @@ const page = () => {
                     <tr>
                       <td>
                         <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/5.jpg"
+                          src="/assets/images/users/female/5.jpg"
                           className="avatar brround"
                           alt=""
                         />
@@ -954,7 +954,7 @@ const page = () => {
                     <tr>
                       <td>
                         <img
-                          src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/male/6.jpg"
+                          src="/assets/images/users/male/6.jpg"
                           className="avatar brround"
                           alt=""
                         />
@@ -976,6 +976,6 @@ const page = () => {
       {/* End Row */}
     </div>
   );
-}
+};
 
-export default page
+export default page;

@@ -1,46 +1,48 @@
-"use client"
-import React from 'react'
-import Hamburger from '@/svgs/svg';
-import { Setting } from '@/svgs/svg';
+"use client";
+import React from "react";
+import Hamburger from "@/svgs/svg";
+import { Setting } from "@/svgs/svg";
+import { useLogisticContext } from "@/contexts/LogisticProvider";
 
 const Navbar = () => {
+  const { sideBarVisible, setSideBarVisible } = useLogisticContext();
   return (
     <div className="app-header header d-flex navbar-collapse">
       <div className="container-fluid">
         <div className="d-flex">
-          <a
-            className="header-brand"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/index"
-          >
+          <a className="header-brand" href="/index">
             <img
-              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/brand/logo.png"
+              src="/assets/images/brand/logo.png"
               className="header-brand-img main-logo"
               alt="IndoUi logo"
             />
             <img
-              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/brand/logo-light.png"
+              src="/assets/images/brand/logo-light.png"
               className="header-brand-img dark-main-logo"
               alt="IndoUi logo"
             />
             <img
-              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/brand/icon-light.png"
+              src="/assets/images/brand/icon-light.png"
               className="header-brand-img dark-icon-logo"
               alt="IndoUi logo"
             />
             <img
-              src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/brand/icon.png"
+              src="/assets/images/brand/icon.png"
               className="header-brand-img icon-logo"
               alt="IndoUi logo"
             />
           </a>
           {/* logo*/}
-          <div className="app-sidebar__toggle" data-toggle="sidebar">
-            <a className="open-toggle">
+          <div className="app-sidebar__toggle -mt-2" data-toggle="sidebar">
+            <a
+              className="open-toggle"
+              onClick={() => setSideBarVisible((prev) => !prev)}
+            >
               <Hamburger width={34} height={34} />
             </a>
-            <a className="close-toggle" href="#">
+            {/* <a className="close-toggle" href="#">
               <i className="fe fe-x" />
-            </a>
+            </a> */}
           </div>
           <div className="d-none dropdown d-md-flex header-settings">
             <a className="nav-link icon" data-toggle="dropdown">
@@ -178,10 +180,10 @@ const Navbar = () => {
               >
                 <span
                   className="avatar avatar-md brround cover-image"
-                  data-image-src="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/2.jpg"
+                  data-image-src="/assets/images/users/female/2.jpg"
                   style={{
                     background:
-                      'url("https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/assets/images/users/female/2.jpg") center center',
+                      'url("/assets/images/users/female/2.jpg") center center',
                   }}
                 />
               </a>
@@ -241,6 +243,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
