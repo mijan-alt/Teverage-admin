@@ -6,6 +6,7 @@ import { Dashboard } from "@/svgs/svg";
 import { useLogisticContext } from "@/contexts/LogisticProvider";
 import { Chevronright, Widget, SmallCircle } from "@/svgs/svg";
 
+
 const Sidebar = () => {
   const { sideBarVisible, setSideBarVisible } = useLogisticContext();
   const pathname = usePathname();
@@ -929,7 +930,7 @@ const Sidebar = () => {
           <a
             className="side-menu__item"
             data-toggle="slide"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/#"
+            href=""
           >
             <i className="side-menu__icon fe fe-shopping-cart" />
             <span className="side-menu__label">E-Commerce</span>
@@ -938,7 +939,7 @@ const Sidebar = () => {
           <ul className="slide-menu">
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/product"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -947,7 +948,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/product-details"
+                href=""
                 className="slide-item"
               >
                 Product Details
@@ -955,7 +956,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/cart"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -968,7 +969,7 @@ const Sidebar = () => {
           <a
             className="side-menu__item"
             data-toggle="slide"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/#"
+            href=""
           >
             <i className="side-menu__icon fe fe-unlock" />
             <span className="side-menu__label">Custom</span>
@@ -977,7 +978,7 @@ const Sidebar = () => {
           <ul className="slide-menu">
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/login"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -986,7 +987,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/register"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -995,7 +996,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/forgot-password"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1004,7 +1005,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/lockscreen"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1017,7 +1018,7 @@ const Sidebar = () => {
           <a
             className="side-menu__item"
             data-toggle="slide"
-            href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/#"
+            href=""
           >
             <i className="side-menu__icon fe fe-alert-triangle" />
             <span className="side-menu__label">Error Pages</span>
@@ -1026,7 +1027,7 @@ const Sidebar = () => {
           <ul className="slide-menu">
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/400"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1035,7 +1036,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/401"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1044,7 +1045,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/403"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1053,7 +1054,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/404"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1062,7 +1063,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/500"
+                href=""
                 className="slide-item"
               >
                 {" "}
@@ -1071,7 +1072,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://laravel.spruko.com/indoui/Leftmenu-Icon-LightSidebar-ltr/503"
+                href=""
                 className="slide-item"
               >
                 {" "}
