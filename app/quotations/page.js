@@ -18,7 +18,7 @@ const page = () => {
      try {
        setLoading(true);
        const response = await axios.get(
-         `http://localhost:5000/getAllQuotes?page=${page}perPage=${perPage}`
+         `${process.env.NEXT_PUBLIC_URL}getAllQuotes?page=${page}perPage=${perPage}`
        );
        console.log(response);
        const { quotes, totalPages, count } = response.data;

@@ -198,6 +198,39 @@ export const Threedots=() =>{
   );
 }
 
+export const PageIcon=() =>{
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 48 48"
+    >
+      <g>
+        <path fill="#fff" fillOpacity="0.01" d="M0 0H48V48H0z"></path>
+        <rect
+          width="40"
+          height="40"
+          x="4"
+          y="4"
+          stroke="#000"
+          strokeLinejoin="round"
+          strokeWidth="4"
+          rx="3"
+        ></rect>
+        <path
+          stroke="#000"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
+          d="M4 17.333h40M17.333 44V17.333"
+        ></path>
+      </g>
+    </svg>
+  );
+}
+
 
 
 

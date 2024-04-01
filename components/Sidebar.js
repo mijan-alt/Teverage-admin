@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { Dashboard } from "@/svgs/svg";
 import { useLogisticContext } from "@/contexts/LogisticProvider";
 import { Chevronright, Widget, SmallCircle } from "@/svgs/svg";
+import { PageIcon } from "@/svgs/svg";
 
 
 const Sidebar = () => {
@@ -756,8 +757,9 @@ const Sidebar = () => {
         {/* pages */}
         <li className="slide is-expanded cursor-pointer">
           <a className="side-menu__item active" onClick={() => toggle()}>
-            <i className="side-menu__icon fe fe-airplay" />
-            <span className="side-menu__label">Pages</span>
+            {/* <i className="side-menu__icon fe fe-airplay" /> */}
+            <PageIcon />
+            <span className="side-menu__label ml-2">Pages</span>
             <i className="angle fa fa-angle-right" />
           </a>
           {isVisible && (
@@ -927,38 +929,26 @@ const Sidebar = () => {
           </ul>
         </li> */}
         <li className="slide">
-          <a
-            className="side-menu__item"
-            data-toggle="slide"
-            href=""
-          >
-            <i className="side-menu__icon fe fe-shopping-cart" />
+          <a className="side-menu__item" data-toggle="slide" href="">
+            {/* <i className="side-menu__icon fe fe-shopping-cart" /> */}
+         
             <span className="side-menu__label">E-Commerce</span>
             <i className="angle fa fa-angle-right" />
           </a>
           <ul className="slide-menu">
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 Products
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 Product Details
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 Shopping Cart
               </a>
@@ -966,48 +956,32 @@ const Sidebar = () => {
           </ul>
         </li>
         <li className="slide">
-          <a
-            className="side-menu__item"
-            data-toggle="slide"
-            href=""
-          >
+          <a className="side-menu__item" data-toggle="slide" href="">
             <i className="side-menu__icon fe fe-unlock" />
             <span className="side-menu__label">Custom</span>
             <i className="angle fa fa-angle-right" />
           </a>
           <ul className="slide-menu">
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 Login
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 Register
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 Forgot Password
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 Lock screen
               </a>
@@ -1015,66 +989,44 @@ const Sidebar = () => {
           </ul>
         </li>
         <li className="slide">
-          <a
-            className="side-menu__item"
-            data-toggle="slide"
-            href=""
-          >
+          <a className="side-menu__item" data-toggle="slide" href="">
             <i className="side-menu__icon fe fe-alert-triangle" />
             <span className="side-menu__label">Error Pages</span>
             <i className="angle fa fa-angle-right" />
           </a>
           <ul className="slide-menu">
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 400 Error
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 401 Error
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 403 Error
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 404 Error
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 500 Error
               </a>
             </li>
             <li>
-              <a
-                href=""
-                className="slide-item"
-              >
+              <a href="" className="slide-item">
                 {" "}
                 503 Error
               </a>
