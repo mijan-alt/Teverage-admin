@@ -116,6 +116,87 @@ export const SmallCircle=() =>{
     </svg>
   );
 }
+export const Notification=() =>{
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        stroke="#000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M9.002 17H5.606c-1.258 0-1.887 0-2.02-.098-.148-.11-.185-.174-.2-.358-.015-.164.37-.795 1.142-2.057C5.324 13.184 6 11.287 6 8.6c0-1.485.632-2.91 1.758-3.96C8.883 3.59 10.409 3 12 3c1.592 0 3.118.59 4.243 1.64C17.368 5.69 18 7.115 18 8.6c0 2.686.677 4.584 1.473 5.887.771 1.262 1.157 1.893 1.143 2.057-.017.184-.053.248-.202.358-.132.098-.761.098-2.02.098H15m-5.998 0L9 18a3 3 0 106 0v-1m-5.998 0H15"
+      ></path>
+    </svg>
+  );
+}
+export const Search=() =>{
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#0F0F0F"
+        fillRule="evenodd"
+        d="M17.04 15.624a9.004 9.004 0 10-1.415 1.415l5.667 5.668a1 1 0 001.415-1.415l-5.668-5.668zm-7.036 1.393a7.013 7.013 0 110-14.026 7.013 7.013 0 010 14.026z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  );
+}
+export const Minimize=() =>{
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <g>
+          <g
+            fill="none"
+            stroke="#000"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          >
+            <path d="M8 3v3a2 2 0 01-2 2H3M16 21v-3a2 2 0 012-2h3M8 21v-3a2 2 0 00-2-2H3M16 3v3a2 2 0 002 2h3"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+  );
+}
+export const Threedots=() =>{
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <g
+        stroke="#000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      >
+        <path d="M19 13a1 1 0 100-2 1 1 0 000 2zM12 13a1 1 0 100-2 1 1 0 000 2zM5 13a1 1 0 100-2 1 1 0 000 2z"></path>
+      </g>
+    </svg>
+  );
+}
 
 
 

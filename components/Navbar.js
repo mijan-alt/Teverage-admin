@@ -3,6 +3,10 @@ import React from "react";
 import Hamburger from "@/svgs/svg";
 import { Setting } from "@/svgs/svg";
 import { useLogisticContext } from "@/contexts/LogisticProvider";
+import { Notification } from "@/svgs/svg";
+import { Search } from "@/svgs/svg";
+import { Minimize } from "@/svgs/svg";
+import { Threedots } from "@/svgs/svg";
 
 const Navbar = () => {
   const { sideBarVisible, setSideBarVisible } = useLogisticContext();
@@ -14,22 +18,22 @@ const Navbar = () => {
             <img
               src="/assets/images/brand/logo.png"
               className="header-brand-img main-logo"
-              alt="IndoUi logo"
+              alt="Tevergae logo"
             />
             <img
               src="/assets/images/brand/logo-light.png"
               className="header-brand-img dark-main-logo"
-              alt="IndoUi logo"
+              alt="Teverage logo"
             />
             <img
               src="/assets/images/brand/icon-light.png"
               className="header-brand-img dark-icon-logo"
-              alt="IndoUi logo"
+              alt="Teverage Logo"
             />
             <img
               src="/assets/images/brand/icon.png"
               className="header-brand-img icon-logo"
-              alt="IndoUi logo"
+              alt="Teverage Logo"
             />
           </a>
           {/* logo*/}
@@ -84,7 +88,8 @@ const Navbar = () => {
                       <i className="fe fe-x" />
                     </button>
                     <button type="submit" className="btn btn-default">
-                      <i className="fe fe-search" />
+                      {/* <i className="fe fe-search" /> */}
+                      <Search/>
                     </button>
                   </span>
                 </div>
@@ -93,12 +98,14 @@ const Navbar = () => {
             {/* Search */}
             <div className="d-md-flex">
               <a href="#" className="nav-link icon full-screen-link">
-                <i className="fe fe-minimize fullscreen-button" />
+                {/* <i className="fe fe-minimize fullscreen-button" /> */}
+                <Minimize/>
               </a>
             </div>
             <div className="dropdown d-md-flex header-message">
               <a className="nav-link icon" data-toggle="dropdown">
-                <i className="fe fe-bell" />
+                {/* <i className="fe fe-bell" /> */}
+                <Notification/>
                 <span className="nav-unread badge badge-danger badge-pill">
                   3
                 </span>
@@ -235,7 +242,8 @@ const Navbar = () => {
                 data-toggle="sidebar-right"
                 data-target=".sidebar-right"
               >
-                <i className="fe fe-more-horizontal" />
+                {/* <i className="fe fe-more-horizontal" /> */}
+                <Threedots/>
               </a>
             </div>
           </div>

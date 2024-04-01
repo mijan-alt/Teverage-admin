@@ -385,7 +385,7 @@ const page = () => {
                             role="status"
                             aria-live="polite"
                           >
-                            {`Showing 1 to 10 of ${count} entries`}
+                            {`Showing 1 to ${quotes.length} of ${count} entries`}
                           </div>
                         </div>
                         <div className="col-sm-12 col-md-7">
